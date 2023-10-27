@@ -1,0 +1,1259 @@
+
+.header-child {
+  position: relative;
+  width: 1440px;
+  height: 100px;
+  z-index: 0;
+}
+.acessar-rea-restrita,
+.solues {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+}
+.solues {
+  font-weight: 500;
+}
+.acessar-rea-restrita {
+  font-size: var(--headline-500-size);
+  font-family: var(--headline-500);
+  color: var(--primary-neutral-0);
+  text-align: left;
+}
+.acessar-rea-restrita-wrapper {
+  border-radius: var(--br-xs);
+  background-color: rgba(255, 255, 255, 0.16);
+  width: 173px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.acessar-rea-restrita-wrapper,
+.nav-inner,
+.nav1 {
+  display: flex;
+  align-items: center;
+}
+.nav-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 173px;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 1216px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-29xl);
+}
+.logo-icon {
+  position: relative;
+  width: 39.9px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.codabank-icon {
+  position: relative;
+  width: 129.8px;
+  height: 21.7px;
+}
+.logo-codabank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.nav-parent {
+  position: absolute;
+  margin: 0 !important;
+  top: 26px;
+  left: calc(50% - 606px);
+  width: 1221px;
+  height: 48px;
+  z-index: 1;
+}
+.header,
+.iphone-16-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  width: 100%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.iphone-16-icon {
+  width: 981.9px;
+  height: 1101px;
+  object-fit: 80%;
+}
+.iphone,
+.shadowcard {
+  position: absolute;
+  top: 26px;
+  left: 45.1px;
+  width: 1047px;
+  height: 1025px;
+}
+.shadowcard {
+  top: 0;
+  left: 158px;
+  background: linear-gradient(
+    -66.93deg,
+    rgba(255, 255, 255, 0.12),
+    rgba(255, 255, 255, 0)
+  );
+  width: 613.4px;
+  height: 202.7px;
+  transform: rotate(51.23deg);
+  transform-origin: 0 0;
+}
+.logo-icon1 {
+  position: absolute;
+  top: -14.2px;
+  left: 213px;
+  width: 315px;
+  height: 251.4px;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.logo-codabank-icon,
+.logo-icon2 {
+  position: absolute;
+  top: 12.5px;
+  left: 328.7px;
+  width: 166.6px;
+  height: 39.4px;
+}
+.logo-icon2 {
+  top: 161px;
+  left: 208.4px;
+  width: 315px;
+  height: 127.6px;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.div,
+.div1 {
+  position: absolute;
+  letter-spacing: 0.01em;
+}
+.div {
+  top: 215.5px;
+  left: 99.4px;
+  line-height: 43.09px;
+  font-weight: 600;
+}
+.div1 {
+  top: 218.8px;
+  left: 237px;
+  font-size: 19.89px;
+  line-height: 36.46px;
+}
+.valid {
+  margin: 0;
+}
+.valid-thru {
+  top: 220.4px;
+  left: 184px;
+  font-size: 13.26px;
+  line-height: 16.57px;
+}
+.alvin-elian,
+.debit,
+.valid-thru {
+  position: absolute;
+  letter-spacing: 0.01em;
+}
+.debit {
+  top: 242px;
+  left: 469.1px;
+  font-size: 13.26px;
+  line-height: 16.57px;
+}
+.alvin-elian {
+  top: 172.4px;
+  left: 39.8px;
+  line-height: 43.09px;
+}
+.hidden-icon {
+  position: absolute;
+  height: 2.55%;
+  width: 8.87%;
+  top: 75.03%;
+  right: 95.02%;
+  bottom: 22.43%;
+  left: -3.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emv-chip-icon {
+  position: absolute;
+  top: 80.3px;
+  left: 2.9px;
+  width: 92.7px;
+  height: 59.3px;
+}
+.contactless-indicator-icon {
+  position: absolute;
+  height: 13.91%;
+  width: 7.97%;
+  top: 29.33%;
+  right: 73.27%;
+  bottom: 56.75%;
+  left: 18.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.card {
+  position: absolute;
+  top: 332.2px;
+  left: 449.6px;
+  border-radius: 26.52px;
+  background: linear-gradient(247.48deg, #e36139, #ee9168);
+  box-shadow: 16px 29px 30px rgba(0, 0, 0, 0.24);
+  width: 542px;
+  height: 298.3px;
+  overflow: hidden;
+  transform: rotate(-1.5deg);
+  transform-origin: 0 0;
+}
+.shadowcard-parent {
+  position: absolute;
+  top: 57px;
+  left: -36.9px;
+  width: 991.4px;
+  height: 620.8px;
+}
+.imagecelcard-child,
+.shadowrectangle {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.shadowrectangle {
+  top: 94.1px;
+  left: 260.8px;
+  background: linear-gradient(
+    269.9deg,
+    rgba(84, 184, 98, 0.2) 37.72%,
+    rgba(84, 184, 98, 0)
+  );
+  width: 315.2px;
+  height: 114.6px;
+  transform: rotate(51.23deg);
+}
+.imagecelcard-child {
+  top: 337.1px;
+  left: 383.4px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen);
+  width: 80px;
+  height: 80px;
+  transform: rotate(-1.5deg);
+}
+.imagecelcard {
+  position: absolute;
+  top: -76px;
+  left: 327px;
+  width: 1166px;
+  height: 1125px;
+  font-size: 26.52px;
+}
+.div2,
+.paragraph {
+  position: absolute;
+  top: 871px;
+  left: 57px;
+  letter-spacing: -0.01em;
+  line-height: 50px;
+  font-weight: 800;
+}
+.paragraph {
+  top: 921px;
+  font-size: var(--font-size-5xl);
+  line-height: 34px;
+  font-weight: 600;
+}
+.as-melhores-taxas {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  width: 633px;
+  flex-shrink: 0;
+}
+.as-melhores-taxas-para-nossa-r-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.oferecemos-servios-com {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  width: 414px;
+  flex-shrink: 0;
+}
+.oferecemos-servios-com-preos-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+}
+.badge-icon,
+.badge-icon1 {
+  position: relative;
+  width: 177px;
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.badge-icon1 {
+  width: 157px;
+}
+.badge-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.frame-parent {
+  position: absolute;
+  top: 152px;
+  left: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 83px;
+}
+.herocontent {
+  position: absolute;
+  top: 62px;
+  left: calc(50% - 634px);
+  width: 1326px;
+  height: 1023px;
+  font-size: var(--font-size-45xl);
+}
+.hero {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 1113px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--primary-neutral-0);
+}
+.conhea-as-nossas,
+.oferecemos-servios-com-container {
+  position: absolute;
+  letter-spacing: -0.01em;
+  text-align: left;
+  display: inline-block;
+}
+.conhea-as-nossas {
+  top: 123px;
+  left: 120px;
+  font-size: var(--font-size-29xl);
+  line-height: 120%;
+  width: 580px;
+  height: 307px;
+}
+.oferecemos-servios-com-container {
+  top: 151px;
+  left: 833px;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--primary-neutral-500);
+  width: 406px;
+}
+.switch-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.switch-wrapper {
+  border-radius: var(--br-xs);
+  background-color: rgba(255, 255, 255, 0.24);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.frame-inner {
+  position: relative;
+  background-color: var(--primary-neutral-0);
+  width: 2px;
+  height: 32px;
+}
+.servios {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.solues-bancrias-com {
+  position: relative;
+  font-size: var(--headline-500-size);
+  letter-spacing: -0.01em;
+  line-height: 140%;
+  font-weight: 500;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  width: 222px;
+}
+.frame-container,
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-group {
+  position: absolute;
+  top: 378px;
+  left: 120px;
+  border-radius: var(--br-lg);
+  background-color: #e1704a;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-29xl);
+  gap: var(--gap-29xl);
+  color: var(--primary-neutral-0);
+}
+.database-success-wrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--primary-neutral-0);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.rectangle-div {
+  position: relative;
+  background-color: var(--color-coral-100);
+  width: 2px;
+  height: 32px;
+}
+.use-o-pix {
+  position: relative;
+  font-size: var(--headline-500-size);
+  letter-spacing: -0.01em;
+  line-height: 140%;
+  font-weight: 500;
+  color: var(--primary-neutral-500);
+  text-align: left;
+  display: inline-block;
+  width: 222px;
+}
+.frame-div,
+.frame-parent2,
+.frame-parent4 {
+  position: absolute;
+  top: 378px;
+  left: 430px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-29xl);
+  gap: var(--gap-29xl);
+}
+.frame-parent2,
+.frame-parent4 {
+  left: 740px;
+}
+.frame-parent4 {
+  left: 1050px;
+}
+
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 147px;
+  
+}
+
+
+.frame-child3,
+.frame-child4 {
+  position: absolute;
+  transform: rotate(51.23deg);
+  transform-origin: 0 0;
+}
+.frame-child3 {
+  top: -186px;
+  left: 935px;
+  background: linear-gradient(
+    -66.93deg,
+    rgba(255, 255, 255, 0.69),
+    rgba(255, 255, 255, 0)
+  );
+  width: 613.4px;
+  height: 202.7px;
+}
+.frame-child4 {
+  top: -60px;
+  left: 1149.4px;
+  background: linear-gradient(
+    269.9deg,
+    rgba(252, 255, 240, 0.79) 37.72%,
+    rgba(84, 184, 98, 0)
+  );
+  width: 315.2px;
+  height: 114.6px;
+}
+.seguro-acessvel-seu-container,
+.um-banco-100 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 443.5px);
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  display: inline-block;
+  width: 521px;
+  height: 65px;
+}
+.seguro-acessvel-seu-container {
+  left: calc(50% - 173.5px);
+  background: linear-gradient(180deg, #1b2534, #1b2534);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 347px;
+  height: 87px;
+}
+.seguro-acessvel-seu-wrapper {
+  position: absolute;
+  top: 0;
+  left: 540px;
+  width: 347px;
+  height: 87px;
+  overflow: hidden;
+  text-align: left;
+}
+.frase-um {
+  position: absolute;
+  top: 30px;
+  left: 276px;
+  width: 887px;
+  height: 87px;
+}
+
+
+
+
+
+.serviceall {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.service {
+ 
+  position: relative;
+  background-color: var(--primary-neutral-0);
+  width: 1440px;
+  height: 949px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+ left: calc(50% - 720px);
+ 
+}
+
+.vector-parent-container{
+    top: 799px;
+    height: 147px;
+    font-size: var(--font-size-45xl);
+    color: #bc3402;
+    font-family: var(--font-poppins);
+    background-color: #54B862;
+    position: absolute;
+    left: calc(50% - 720px);
+    
+    
+}
+
+.vector-parent {
+  height: 87px;
+  top: 799px;
+  height: 147px;
+  font-size: var(--font-size-45xl);
+  color: #bc3402;
+  font-family: var(--font-poppins);
+ 
+}
+
+
+
+.vantagens1 {
+  position: absolute;
+  top: 154px;
+  left: 813px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: -0.01em;
+  line-height: 120%;
+}
+.image-20-icon {
+  position: absolute;
+  top: 61px;
+  left: 44px;
+  width: 730px;
+  height: 745px;
+  object-fit: cover;
+}
+.somos-um-banco {
+  position: absolute;
+  top: 226px;
+  left: 813px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--primary-neutral-500);
+  display: inline-block;
+  width: 465px;
+}
+.checkcircle-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.transaes-online {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.checkcircle-group,
+.checkcircle-parent {
+  position: absolute;
+  top: 374px;
+  left: 813px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.checkcircle-group {
+  left: 1106px;
+}
+.checkcircle-container,
+.checkcircle-parent1,
+.checkcircle-parent2,
+.checkcircle-parent3,
+.checkcircle-parent4,
+.checkcircle-parent5 {
+  position: absolute;
+  top: 414px;
+  left: 813px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.checkcircle-parent1,
+.checkcircle-parent2,
+.checkcircle-parent3,
+.checkcircle-parent4,
+.checkcircle-parent5 {
+  left: 1106px;
+}
+.checkcircle-parent2,
+.checkcircle-parent3,
+.checkcircle-parent4,
+.checkcircle-parent5 {
+  top: 454px;
+  left: 813px;
+}
+.checkcircle-parent3,
+.checkcircle-parent4,
+.checkcircle-parent5 {
+  left: 1106px;
+}
+.checkcircle-parent4,
+.checkcircle-parent5 {
+  top: 494px;
+  left: 813px;
+}
+.checkcircle-parent5 {
+  top: 534px;
+}
+.feature {
+  position: relative;
+  background-color: var(--primary-neutral-0);
+  width: 1440px;
+  height: 830px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-icon3 {
+  position: absolute;
+  height: 65.46%;
+  width: 34.79%;
+  top: 34.54%;
+  right: 7.22%;
+  bottom: 0;
+  left: 57.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.16;
+}
+.success-icon {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.transao-bem-sucedida-container {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 26px;
+}
+.success-parent {
+  position: absolute;
+  top: calc(50% + 49.5px);
+  left: calc(50% + 421px);
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-neutral-0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--headline-500-size);
+}
+.codabank-um-app-container {
+  position: absolute;
+  top: 140px;
+  left: 122px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: -0.01em;
+  line-height: 120%;
+}
+.carto-de-crdito,
+.carto-virtual-de {
+  position: absolute;
+  top: 283px;
+  left: 154px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--primary-neutral-500);
+  display: inline-block;
+  width: 406px;
+}
+.carto-de-crdito {
+  top: 361px;
+}
+.abra-sua-conta {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-family: var(--headline-500);
+  color: var(--primary-neutral-0);
+  text-align: left;
+}
+.abra-sua-conta-parent,
+.feature-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abra-sua-conta-parent {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xl);
+  gap: var(--gap-base);
+}
+.feature-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 474px;
+  left: 130px;
+  width: 217px;
+  flex-direction: column;
+}
+.feature-child,
+.feature-item {
+  position: absolute;
+  top: 306px;
+  left: 122px;
+  border-radius: 50%;
+  background-color: var(--primary-neutral-900);
+  width: 8px;
+  height: 8px;
+}
+.feature-item {
+  top: 384px;
+}
+.logo-icon4 {
+  position: absolute;
+  top: 0;
+  left: 188.4px;
+  width: 227.2px;
+  height: 227.2px;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.logo-codabank-icon1,
+.logo-icon5 {
+  position: absolute;
+  top: 21.4px;
+  left: 278px;
+  width: 127px;
+  height: 29.4px;
+}
+.logo-icon5 {
+  top: 127px;
+  left: 241.9px;
+  width: 195.1px;
+  height: 113.6px;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.div3,
+.div4 {
+  position: absolute;
+  letter-spacing: 0.01em;
+}
+.div3 {
+  top: 173.7px;
+  left: 80.2px;
+  line-height: 34.75px;
+  font-weight: 600;
+}
+.div4 {
+  top: 176.4px;
+  left: 191.1px;
+  font-size: 16.04px;
+  line-height: 29.4px;
+}
+.valid-thru1 {
+  top: 177.7px;
+  left: 148.3px;
+  font-size: 10.69px;
+  line-height: 13.36px;
+}
+.alvin-elian1,
+.debit1,
+.valid-thru1 {
+  position: absolute;
+  letter-spacing: 0.01em;
+}
+.debit1 {
+  top: 195.1px;
+  left: 378.2px;
+  font-size: 10.69px;
+  line-height: 13.36px;
+}
+.alvin-elian1 {
+  top: 139px;
+  left: 32.1px;
+  line-height: 34.75px;
+}
+.hidden-icon1 {
+  position: absolute;
+  height: 2.2%;
+  width: 8.56%;
+  top: 78.3%;
+  right: 84.1%;
+  bottom: 19.49%;
+  left: 7.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emv-chip-icon1 {
+  position: absolute;
+  top: 69.5px;
+  left: 32.1px;
+  width: 62.7px;
+  height: 47.7px;
+}
+.contactless-indicator-icon1 {
+  position: absolute;
+  height: 13.88%;
+  width: 6.04%;
+  top: 31.88%;
+  right: 68.79%;
+  bottom: 54.24%;
+  left: 25.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.card1 {
+  position: absolute;
+  top: 137px;
+  left: 861px;
+  border-radius: 21.38px;
+  background: linear-gradient(247.48deg, #e36139, #ee9168);
+  width: 437px;
+  height: 240.6px;
+  overflow: hidden;
+  font-size: 21.38px;
+  color: var(--primary-neutral-0);
+}
+.div6,
+.valid-thru2 {
+  position: absolute;
+  top: 176.4px;
+  left: 193.8px;
+  font-size: 16.04px;
+  letter-spacing: 0.01em;
+  line-height: 29.4px;
+}
+.valid-thru2 {
+  top: 177.7px;
+  left: 151px;
+  font-size: 10.69px;
+  line-height: 13.36px;
+}
+.card2,
+.logo-codabank-icon2 {
+  position: absolute;
+  top: 21.4px;
+  left: 276.6px;
+  width: 128.3px;
+  height: 29.4px;
+}
+.card2 {
+  top: 281px;
+  left: 681px;
+  border-radius: 21.38px;
+  background: linear-gradient(247.48deg, #e3b639, #eebd68);
+  width: 437px;
+  height: 240.6px;
+  overflow: hidden;
+  font-size: 21.38px;
+  color: var(--primary-neutral-0);
+}
+.touch-id-icon {
+  position: absolute;
+  top: 100px;
+  left: 804px;
+  width: 100px;
+  height: 100px;
+}
+.feature1 {
+  position: relative;
+  background-color: var(--primary-neutral-0);
+  width: 1440px;
+  height: 721px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.logo-codabank-icon3 {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  width: 272px;
+  height: 63px;
+}
+.personal {
+  position: relative;
+  line-height: 150%;
+}
+.personal-parent,
+.pricing-parent {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.personal-parent {
+  height: 120px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--color-gray-300);
+}
+.pricing-parent {
+  position: absolute;
+  top: 120px;
+  left: 945px;
+  height: 184px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.service-parent {
+  width: 85px;
+  height: 120px;
+  gap: var(--gap-5xl);
+  color: var(--color-gray-300);
+}
+.menu-parent,
+.service-parent,
+.support-center-parent,
+.support-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-parent {
+  position: absolute;
+  top: 120px;
+  left: 760px;
+  width: 85px;
+  height: 184px;
+  gap: var(--gap-21xl);
+}
+.support-center-parent,
+.support-parent {
+  width: 111px;
+}
+.support-center-parent {
+  height: 120px;
+  gap: var(--gap-5xl);
+  color: var(--color-gray-300);
+}
+.support-parent {
+  position: absolute;
+  top: 120px;
+  left: 1124px;
+  height: 184px;
+  gap: var(--gap-21xl);
+}
+.carbonlogo-facebook-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.carbonlogo-facebook-wrapper,
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carbonlogo-facebook-wrapper {
+  border-radius: var(--br-13xl);
+  border: 1px solid var(--color-gray-300);
+  padding: var(--padding-5xs);
+}
+.social-media {
+  position: absolute;
+  top: 272px;
+  right: 1168px;
+  gap: var(--gap-base);
+}
+
+.footer1container{
+ position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 412px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--primary-neutral-0);
+}
+
+
+.footer1 {
+  position: relative;
+ 
+  width: 1440px;
+  height: 412px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--primary-neutral-0);
+  left: calc(50% - 606px);
+}
+.codabank-landing-page,
+.frame-child,
+.frame11 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.codabank-landing-page {
+  position: relative;
+  width: 100%;
+  height: 4158px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 1654px;
+  text-align: left;
+  font-size: var(--headline-500-size);
+  color: var(--primary-neutral-900);
+  font-family: var(--headline-500);
+}
+.frame-child,
+.frame11 {
+  align-items: flex-start;
+}
+.frame-child {
+  border: 0;
+  font-family: var(--headline-500);
+  font-size: var(--font-size-lg);
+  background-color: var(--primary-neutral-0);
+  border-radius: var(--br-3xs);
+  width: 300px;
+  height: 49px;
+  justify-content: center;
+  padding: var(--padding-0) 26px;
+  position: undefined;
+  margin-top: 251px;
+}
+.frame11 {
+  width: 744px;
+  height: 410px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-0) 57px;
+  background-image: url(./public/frame1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.deixe-seu-email {
+  margin: 15px 50px 0 ;
+  font-size:20px;
+
+}
+.deixe-seu-email-container {
+  position: absolute;
+  display: inline-block;
+  width: 400px;
+  height: 250px;
+  flex-shrink: 0;
+  margin-top: 40px;
+
+}
+
+.frame-bt{
+  position: absolute;
+   border-radius: var(--br-xs);
+    background-color: #000000;
+    width: 200px;
+    height: 54px;
+    flex-direction: row;
+    justify-content: center;
+   margin-top: 250px;
+   margin-right: 170px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: var(--headline-500);
+  font-size: var(--font-size-lg);
+}
+
+.frame-item,
+.frame12,
+.popup {
+  display: flex;
+  flex-direction: row;
+}
+.frame-item {
+  border: 0;
+  font-family: var(--headline-500);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-gray-200);
+  border-radius: var(--br-xs);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  position: undefined;
+  width: 100px;
+  margin-top: 251px;
+  margin-left: -170px;
+}
+
+
+
+
+.frame12,
+.popup {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame12 {
+  width: 552px;
+  height: 302px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-left: -588px;
+}
+.framecard{
+  position: relative;
+  background-color: aqua;
+  width: 100px;
+  margin-top: 251px;
+  margin-left: -170px;
+}
+
+.popup {
+  position: relative;
+  width: 800px;
+  height: 482px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  text-align: right;
+  font-size: 32px;
+  color: var(--primary-neutral-0);
+  font-family: var(--headline-500);
+}

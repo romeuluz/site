@@ -1,0 +1,100 @@
+.frame-child, .frame11 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-child {
+  font-family: var(--headline-500);
+  font-size: var(--font-size-lg);
+  background-color: var(--primary-neutral-0);
+  border-radius: var(--br-3xs);
+  padding: var(--padding-0) 26px;
+  position: undefined;
+  border: 0;
+  justify-content: center;
+  width: 300px;
+  height: 49px;
+  margin-top: 251px;
+}
+
+.frame11 {
+  padding: var(--padding-0) 57px;
+  background-image: url("frame1@3x.fca61473.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  width: 744px;
+  height: 410px;
+  overflow: hidden;
+}
+
+.deixe-seu-email {
+  margin: 0;
+}
+
+.deixe-seu-email-container {
+  position: undefined;
+  letter-spacing: .02em;
+  white-space: pre-wrap;
+  flex-shrink: 0;
+  width: 156px;
+  height: 129px;
+  margin-top: 27px;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.frame-item, .frame12, .popup {
+  flex-direction: row;
+  display: flex;
+}
+
+.frame-item {
+  font-family: var(--headline-500);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-gray-200);
+  border-radius: var(--br-xs);
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  position: undefined;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  width: 302px;
+  margin-top: 251px;
+  margin-left: -170px;
+}
+
+.frame12, .popup {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.frame12 {
+  flex-shrink: 0;
+  width: 552px;
+  height: 302px;
+  margin-left: -588px;
+  overflow: hidden;
+}
+
+.popup {
+  padding: 41px var(--padding-xs);
+  box-sizing: border-box;
+  text-align: right;
+  color: var(--primary-neutral-0);
+  font-size: 32px;
+  font-family: var(--headline-500);
+  width: 768px;
+  max-width: 90%;
+  height: 482px;
+  max-height: 90%;
+  position: relative;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=Popup.466ab483.css.map */

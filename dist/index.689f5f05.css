@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  --font-open-sans: "Open Sans";
+  --font-montserrat: Montserrat;
+  --font-font-awesome-5-brands: "Font Awesome 5 Brands";
+  --font-inter: Inter;
+  --font-font-awesome-5-free: "Font Awesome 5 Free";
+  --headline-500: Urbanist;
+  --font-poppins: Poppins;
+  --font-size-mini: 15px;
+  --font-size-16xl-3: 35.3px;
+  --font-size-sm: 14px;
+  --font-size-2xs-7: 10.7px;
+  --font-size-7xl: 26px;
+  --font-size-sm-4: 13.4px;
+  --font-size-lg-8: 18.8px;
+  --font-size-xl: 20px;
+  --font-size-smi: 13px;
+  --font-size-7xl-3: 26.3px;
+  --font-size-27xl: 46px;
+  --font-size-21xl: 40px;
+  --font-size-2xs: 11px;
+  --headline-500-size: 16px;
+  --font-size-22xl-3: 41.3px;
+  --font-size-xs: 12px;
+  --font-size-smi-4: 12.4px;
+  --font-size-25xl: 44px;
+  --font-size-3xl: 22px;
+  --font-size-lg: 18px;
+  --font-size-2xl-4: 21.4px;
+  --font-size-29xl: 48px;
+  --font-size-45xl: 64px;
+  --font-size-5xl: 24px;
+  --font-size-7xl-5: 26.5px;
+  --font-size-sm-3: 13.3px;
+  --primary-neutral-0: #fff;
+  --color-whitesmoke: #f5f5f5;
+  --primary-neutral-500: #848fac;
+  --color-lightslategray-100: #8392a5;
+  --color-darkviolet: #bf00dc;
+  --color-dimgray: #696969;
+  --color-darkslategray-100: #495057;
+  --color-darkslategray-200: #434343;
+  --color-darkslategray-300: #1b2e4b;
+  --color-blueviolet-100: #9629e6;
+  --color-blueviolet-200: #6730e3;
+  --color-mediumblue: #581edc;
+  --color-gray-100: #fafafa;
+  --color-gray-200: #1b2534;
+  --color-gray-300: #fffc;
+  --color-gray-400: #fff0;
+  --color-aliceblue: #e5e9f2;
+  --color-hotpink: #ea4c89;
+  --color-steelblue-100: #0077b5;
+  --color-steelblue-200: #485e9029;
+  --color-deepskyblue: #00a7e6;
+  --color-lightcoral: #ec6e7b;
+  --color-darkslateblue-100: #4064ac;
+  --primary-neutral-900: #192252;
+  --color-plum: #b9a0f2;
+  --color-black: #000;
+  --color-coral-100: #e36139;
+  --color-mediumseagreen: #54b862;
+  --gap-mini: 15px;
+  --gap-xs: 12px;
+  --gap-base: 16px;
+  --gap-8xs: 5px;
+  --gap-7xs: 6px;
+  --gap-5xs: 8px;
+  --gap-4xs: 9px;
+  --gap-21xl: 40px;
+  --gap-5xl: 24px;
+  --gap-29xl: 48px;
+  --padding-17xl: 36px;
+  --padding-10xs: 3px;
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+  --padding-6xl-5: 25.5px;
+  --padding-0: 0px;
+  --padding-lgi: 19px;
+  --padding-mid-3: 17.3px;
+  --padding-4xs: 9px;
+  --padding-mid-6: 17.6px;
+  --padding-2xl: 21px;
+  --padding-base: 16px;
+  --padding-28xl: 47px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-29xl: 48px;
+  --br-11xl: 30px;
+  --br-8xs-8: 4.8px;
+  --br-141xl: 160px;
+  --br-9xs: 4px;
+  --br-5xl-5: 24.5px;
+  --br-base: 16px;
+  --br-6xl: 25px;
+  --br-8xl-5: 27.5px;
+  --br-10xs: 3px;
+  --br-51xl: 70px;
+  --br-xs: 12px;
+  --br-3xs: 10px;
+  --br-13xl: 32px;
+  --br-2xl-4: 21.4px;
+  --br-lg: 18px;
+}
+
+/*# sourceMappingURL=index.689f5f05.css.map */
